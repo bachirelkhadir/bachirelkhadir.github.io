@@ -1,9 +1,0 @@
-#+TITLE: Readme
-
-* Setup
-
-Start a new Jekyll website locally
-
-#+begin_src sh
-jekyll new . --force
-#+end_src
