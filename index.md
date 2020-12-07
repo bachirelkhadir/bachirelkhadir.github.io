@@ -12,13 +12,31 @@ layout: default
   {% include_relative about.md %}
   </div>
 
+
+<div id="recent-news">
+    <h2 id="news-title">Recent News and Highlights</h2>
+    <div id="news">
+    <section class="year">
+    <h3>2020</h3>
+    <ul>
+    {% for news in site.categories.news %}
+    {% capture year %}{{ news.date | date: "%Y"}}{% endcapture %}
+    {% if year == "2020" %}
+    <li>{{news.content}}</li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+    </section>
+    </div> 
+
 <h2>News</h2>
-{{site.news.size}} News.
 <ul>
-  {% for post in site.news %}
+  {% for post in site.categories.news %}
   News:
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+
+      {{ post.date }}
+      {{ post.content }}
     </li>
   {% endfor %}
 </ul>

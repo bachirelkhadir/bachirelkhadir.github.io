@@ -12,3 +12,53 @@ html, body {
     margin: 20px 30px 20px 10px;
     max-width: 200px;
 }
+
+
+
+/* Time line */
+#recent-news {
+    clear: both;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+#recent-news h2{
+    font-size: 20px;
+    text-transform: none;
+    padding: 3px 7px;
+    margin-bottom: 10px;
+}
+
+#news ul {
+    margin: -25px 0 0 75px;
+    padding: 0;
+    padding-left: 10px;
+    list-style-type: none;
+    list-style-position: inside;
+    border-left: 2px solid #888;
+    min-height: 30px;
+}
+
+
+#news li::before {
+    content: "-";
+    font-size: 1.2rem;
+    color: #888;
+}
+
+#news li span{
+    margin-left: 5px;
+}
+
+#news li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#news h3 {
+    color: #888;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 1rem;
+}
