@@ -9,29 +9,28 @@ import datetime
 
 
 backup_js_fn = "./bachirelkhadir.com.dec06.2020.json"
-template_fn = "output/publications/{date_trim}-{slug}.md"
+template_fn = "output/talks/{date_trim}-{slug}.md"
 template_content = """\
 ---
-date:   {date}
-title: {title}
-status: {status}
-authors: {authors}
-link: {link}
-journal: {journal}
-remark: {remark}
+conference : {conference}
+place : {place}
+link : {link}
+conference_link : {conference_link}
+date : {date}
+longitude : {longitude}
+latitude : {latitude}
 ---
 
-{abstract}
+Talk
 
 """
 
 with open(backup_js_fn) as backup_file:
     backup = json.load(backup_file)
 
-# print(backup)
-backup = [entry['fields'] for entry in backup if entry['model'] == 'research.publication']
+backup = [entry['fields'] for entry in backup if entry['model'] == 'research.talk']
 
-print(pd.DataFrame(backup).columns)
+escape = lambda s: '"%s"' % s
 
 for entry in backup:
     date = entry['date']
@@ -39,17 +38,17 @@ for entry in backup:
     # date = date.strftime('%Y-%m-%d HH:MM:SS')
     date_trim = date[:10]
 
-    title = entry["title"]
-    status = entry["status"]
-    authors = entry["authors"]
-    link = entry["link"]
-    journal = entry["journal"]
-    remark = entry["remark"]
-    abstract = entry["abstract"]
+    conference = escape(entry['conference'])
+    place = escape(entry['place'])
+    link = escape(entry['link'])
+    conference_link = escape(entry['conference_link'])
+    date = escape(entry['date'])
+    longitude = escape(entry['longitude'])
+    latitude = escape(entry['latitude'])
 
     print(date, date_trim + "|")
 
-    slug = slugify(title)[:10]
+    slug = slugify(conference)[:10]
     fn = template_fn.format(**locals())
     with open(fn, "w") as f:
         f.write(template_content.format(**locals()))
