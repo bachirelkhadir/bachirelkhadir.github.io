@@ -28,7 +28,4 @@ layout: default
     </ul>
     </section>
     </div> 
-
-
-
 </div>

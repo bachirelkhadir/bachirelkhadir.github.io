@@ -90,3 +90,72 @@ p {
     font-size: 1.7rem;
     font-weight: 900;
 }
+
+/* Research */
+
+.abstract-info {
+    background: #FAFAFA;
+    padding: 8px;
+    border: 1px solid #CCC;
+}
+
+/* Pictures of publications */
+.publication {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    overflow:hidden;
+    clear: both;
+    padding: 15px;
+    margin: 10px;
+}
+
+.publication .title {
+    font-weight: 400;
+    color: black;
+}
+
+.publication .authors, .publication .date, .publication .journal{
+    font-size: 1rem;
+}
+
+.publication .pics {
+    text-align: center;
+}
+
+.publication figure {
+    float: left;
+    margin: 10px;
+}
+
+.publication img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.publication img, .publication figcaption {
+    width: 150px;
+}
+
+.publication .remark {
+    font-size: 1rem;
+}
+
+/* Add a hover effect (blue shadow) */
+.publication img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.publication figcaption {
+    font-size: small;
+    font-weight: normal;
+    color: black;
+}
+
+.talk-selected{
+    background-color:rgba(255,255,0,0.1);
+}
+
+/* Highlight a publicaiton when the id is linked to using an anchor? */
+:target {
+   background-color: #ffa;
+}
