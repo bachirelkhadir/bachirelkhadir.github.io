@@ -29,17 +29,6 @@ layout: default
     </section>
     </div> 
 
-<h2>News</h2>
-<ul>
-  {% for post in site.categories.news %}
-  News:
-    <li>
-
-      {{ post.date }}
-      {{ post.content }}
-    </li>
-  {% endfor %}
-</ul>
 
 
 </div>

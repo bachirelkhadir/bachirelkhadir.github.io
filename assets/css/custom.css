@@ -2,6 +2,16 @@
 html, body {
     height: 100%;
 }
+
+
+
+p {
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+}
+
+
 /* index */
 #myphoto{
     border: 2px solid #35447a; /* #0071BC; */
@@ -14,10 +24,22 @@ html, body {
 }
 
 
+/* About me */
+#aboutme {
+    padding-top: 0px;
+    text-align: justify;
+}
+
+#aboutme:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 
 /* Time line */
 #recent-news {
-    clear: both;
     font-size: 14px;
     margin-bottom: 40px;
 }
@@ -40,8 +62,8 @@ html, body {
 }
 
 
-#news li::before {
-    content: "-";
+#news li p:first-child:before {
+    content: "- ";
     font-size: 1.2rem;
     color: #888;
 }
@@ -55,10 +77,16 @@ html, body {
     margin-left: 10px;
 }
 
+
+#news li p{
+    display: inline;
+}
+
 #news h3 {
     color: #888;
     margin: 0px;
     margin-top: 30px;
     margin-left: 30px;
-    font-size: 1rem;
+    font-size: 1.7rem;
+    font-weight: 900;
 }
