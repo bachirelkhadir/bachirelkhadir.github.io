@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+*.log
+tmp/
+_site
+.ruby-version
+.bundle
+vendor
+coverage
+.sass-cache
