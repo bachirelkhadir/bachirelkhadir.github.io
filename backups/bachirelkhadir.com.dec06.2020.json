@@ -1,0 +1,982 @@
+[
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "bachirelkhadir.com",
+    "name": "bachirblog"
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 1,
+  "fields": {
+    "url": "/about/",
+    "title": "About me",
+    "content": "<p>I am a <a href=\"https://www.research.ibm.com/goldstine/\">Goldstine  Fellow</a> at IBM Research in New York.\r\nIn 2020, I completed my PhD  at Princeton University  under the supervision of  <a h ef=\"http://aaa.princeton.edu/\">Amir Ali Ahmadi</a>. Before joining Princeton, I graduated from <a href=\"https://www.polytechnique.edu/\">Ecole Polytechnique</a>.</p>\r\n\r\n<p>I am broadly interested in Polynomial Optimization, Dynamical Systems & Control, and Machine Learning. You can learn more about my work by having a look at my <a href=\"http://www.bachirelkhadir.com/research/publications/\">papers</a>.</p>\r\n\r\n<p>You can contact me at: bachir[at]ibm[dot]com</p>",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      [
+        "bachirelkhadir.com"
+      ]
+    ]
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 2,
+  "fields": {
+    "url": "/publications/",
+    "title": "Publications",
+    "content": "A Globally Asymptotically Stable Polynomial Vector Field with Rational Coefficients and no Local Polynomial Lyapunov Function\r\nA. A. Ahmadi and B. El Khadir\r\nSubmitted, 2018\r\n<a href=\"http://www.optimization-online.org/DB_FILE/2018/03/6528.pdf\">pdf</a>\r\n\r\n\r\nOn Algebraic Proofs of Stability for Homogeneous Vector Fields\r\nA. A. Ahmadi and B. El Khadir\r\nSubmitted, 2018\r\nhttps://arxiv.org/pdf/1803.01877.pdf",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      [
+        "bachirelkhadir.com"
+      ]
+    ]
+  }
+},
+{
+  "model": "hello.greeting",
+  "pk": 1,
+  "fields": {
+    "when": "2018-07-20T21:14:01.022Z"
+  }
+},
+{
+  "model": "hello.greeting",
+  "pk": 2,
+  "fields": {
+    "when": "2018-07-22T20:55:31.036Z"
+  }
+},
+{
+  "model": "hello.greeting",
+  "pk": 3,
+  "fields": {
+    "when": "2018-07-22T21:18:44.330Z"
+  }
+},
+{
+  "model": "hello.greeting",
+  "pk": 4,
+  "fields": {
+    "when": "2018-07-25T09:16:51.864Z"
+  }
+},
+{
+  "model": "hello.greeting",
+  "pk": 5,
+  "fields": {
+    "when": "2018-07-26T06:13:55.061Z"
+  }
+},
+{
+  "model": "hello.greeting",
+  "pk": 6,
+  "fields": {
+    "when": "2018-07-28T14:50:18.526Z"
+  }
+},
+{
+  "model": "hello.greeting",
+  "pk": 7,
+  "fields": {
+    "when": "2019-12-29T03:28:47.231Z"
+  }
+},
+{
+  "model": "research.publication",
+  "pk": 1,
+  "fields": {
+    "title": "A Globally Asymptotically Stable Polynomial Vector Field with Rational Coefficients and no Local Polynomial Lyapunov Function",
+    "abstract": "We give an explicit example of a two-dimensional polynomial vector field of degree seven that has rational coefficients, is globally asymptotically stable, but does not admit an analytic Lyapunov function even locally.",
+    "status": "pb",
+    "authors": "Amir Ali Ahmadi, Bachir El Khadir",
+    "link": "https://arxiv.org/abs/1803.06087",
+    "journal": "Systems & Control Letters",
+    "date": "2018-03-16T01:12:36Z",
+    "slug": "a-globally-asymptotically-stable-polynomial-vector",
+    "remark": ""
+  }
+},
+{
+  "model": "research.publication",
+  "pk": 2,
+  "fields": {
+    "title": "On Algebraic Proofs of Stability for Homogeneous Vector Fields",
+    "abstract": "We prove that if a homogeneous, continuously differentiable vector field is asymptotically stable, then it admits a Lyapunov function which is the ratio of two polynomials (i.e., a rational function). We further show that when the vector field is polynomial, the Lyapunov inequalities on both the rational function and its derivative have sums of squares certificates and hence such a Lyapunov function can always be found by semidefinite programming. This generalizes the classical result that an asymptotically stable linear system admits a quadratic Lyapunov function which satisfies a certain linear matrix inequality. In addition to homogeneous vector fields, the result can be useful for showing local asymptotic stability of non-homogeneous systems, by proving asymptotic stability of their lowest order homogeneous component. \r\nWe show that in absence of homogeneity, globally asymptotically stable polynomial vector fields may fail to admit a rational Lyapunov function, and that in presence of homogeneity, the degree of the numerator of a rational Lyapunov function may need to be arbitrarily high (even for vector fields of fixed degree and dimension). On the other hand, we also give a family of homogeneous polynomial vector fields that admit a low-degree rational Lyapunov function but necessitate polynomial Lyapunov functions of arbitrarily high degree. This shows the potential benefits of working with rational Lyapunov functions, particularly as the ones whose existence we guarantee have structured denominators and are not more expensive to search for than polynomial ones.",
+    "status": "pb",
+    "authors": "Amir Ali Ahmadi, Bachir El Khadir",
+    "link": "https://arxiv.org/abs/1803.01877",
+    "journal": "Transactions on Automatic Control",
+    "date": "2018-03-05T01:13:47Z",
+    "slug": "on-algebraic-proofs-of-stability-for-homogeneous-v",
+    "remark": ""
+  }
+},
+{
+  "model": "research.publication",
+  "pk": 3,
+  "fields": {
+    "title": "Time-Varying Semidefinite Programs",
+    "abstract": "We study time-varying semidefinite programs (TV-SDPs), which are semidefinite programs whose data (and solutions) are functions of time. Our focus is on the setting where the data varies polynomially with time. We show that under a strict feasibility assumption, restricting the solutions to also be polynomial functions of time does not change the optimal value of the TV-SDP. Moreover, by using a Positivstellensatz on univariate polynomial matrices, we show that the best polynomial solution of a given degree to a TV-SDP can be found by solving a semidefinite program of tractable size. We also provide a sequence of dual problems which can be cast as SDPs and that give upper bounds on the optimal value of a TV-SDP (in maximization form). We prove that under a boundedness assumption, this sequence of upper bounds converges to the optimal value of the TV-SDP. Under the same assumption, we also show that the optimal value of the TV-SDP is attained. We demonstrate the efficacy of our algorithms on a maximum-flow problem with time-varying edge capacities, a wireless coverage problem with time-varying coverage requirements, and on bi-objective semidefinite optimization where the goal is to approximate the Pareto curve in one shot.",
+    "status": "sb",
+    "authors": "Amir Ali Ahmadi, Bachir El Khadir",
+    "link": "https://arxiv.org/abs/1808.03994",
+    "journal": "Mathematics of Operations Research",
+    "date": "2018-08-12T16:28:55Z",
+    "slug": "time-varying-semidefinite-programs",
+    "remark": "Accepted with minor revision to Mathematics of Operations Research"
+  }
+},
+{
+  "model": "research.publication",
+  "pk": 4,
+  "fields": {
+    "title": "Learning Dynamical Systems with Side Information",
+    "abstract": "We present a mathematical and computational framework for the problem of learning a dynamical system from noisy observations of a few trajectories and subject to side information. Side information is any knowledge we might have about the dynamical system we would like to learn besides trajectory data. It is typically inferred from domain-specific knowledge or basic principles of a scientific discipline. We are interested in explicitly integrating side information into the learning process in order to compensate for scarcity of trajectory observations. We identify six types of side information that arise naturally in many applications and lead to convex constraints in the learning problem. First, we show that when our model for the unknown dynamical system is parameterized as a polynomial, one can impose our side information constraints computationally via semidefinite programming. We then demonstrate the added value of side information for learning the dynamics of basic models in physics and cell biology, as well as for learning and controlling the dynamics of a model in epidemiology. Finally, we study how well polynomial dynamical systems can approximate continuously-differentiable ones while satisfying side information (either exactly or approximately). Our overall learning methodology combines ideas from convex optimization, real algebra, dynamical systems, and functional approximation theory, and can potentially lead to new synergies between these areas.",
+    "status": "pb",
+    "authors": "Amir Ali Ahmadi, Bachir El Khadir",
+    "link": "https://arxiv.org/abs/2008.10135",
+    "journal": "Proceedings of Machine Learning Research vol   120:1\u201310, 2020",
+    "date": "2019-05-20T17:33:20Z",
+    "slug": "learning-dynamical-systems-side-information",
+    "remark": ""
+  }
+},
+{
+  "model": "research.publication",
+  "pk": 5,
+  "fields": {
+    "title": "Teleoperator Imitation with Continuous-time Safety",
+    "abstract": "Learning to effectively imitate human teleoperators, with generalization to unseen and dynamic environments, is a promising path to greater autonomy enabling robots to steadily acquire complex skills from supervision. We propose a new motion learning technique rooted in contraction theory and sum-of-squares programming for estimating a control law in the form of a polynomial vector field from a given set of  demonstrations.  Notably, this vector field is provably optimal for the problem of minimizing imitation loss while providing continuous-time  guarantees on the induced imitation behavior. Our method generalizes to new initial and goal poses of the robot and can adapt in real-time to dynamic obstacles during execution, with convergence to teleoperator behavior within a well-defined safety tube.  We present an application of our framework for pick-and-place tasks in the presence of moving obstacles on a 7-DOF KUKA IIWA arm. The method compares favorably to other learning-from-demonstration approaches on benchmark handwriting imitation tasks.",
+    "status": "pb",
+    "authors": "Bachir El Khadir, Jake Varley, Vikas Sindhwani",
+    "link": "https://arxiv.org/abs/1905.09499",
+    "journal": "RSS 2019",
+    "date": "2019-05-20T17:47:51Z",
+    "slug": "teleoperator-imitation-continuous-time-safety",
+    "remark": ""
+  }
+},
+{
+  "model": "research.publication",
+  "pk": 6,
+  "fields": {
+    "title": "On sum of squares representation of convex forms and generalized Cauchy-Schwarz inequalities",
+    "abstract": "A convex form of degree larger than one is always nonnegative since it vanishes together with its gradient at the origin. In 2007, Parrilo asked if convex forms are always sums of squares. A few years later, Blekherman answered the question in the negative by showing through volume arguments that for high enough number of variables, there must be convex forms of degree 4 that are not sums of squares. Remarkably, no examples are known to date. In this talk, we show that all convex forms in 4 variables and of degree 4 are sums of squares. We also show that if a conjecture of Blekherman related to the so-called Cayley-Bacharach relations is true, then the same statement holds for convex forms in 3 variables and of degree 6. These are the two minimal cases where one would have any hope of seeing convex forms that are not sums of squares (due to known obstructions). A main ingredient of the proof is the derivation of certain \"generalized Cauchy-Schwarz inequalities\" which could be of independent interest.",
+    "status": "pb",
+    "authors": "Bachir El Khadir",
+    "link": "https://arxiv.org/abs/1909.07546",
+    "journal": "SIAM J. Appl. Algebra Geometry,   4(2), 377\u2013400.",
+    "date": "2019-06-03T02:32:20Z",
+    "slug": "sum-squares-representation-convex-forms-and-generalized-cauchy-schwarz-inequalities",
+    "remark": ""
+  }
+},
+{
+  "model": "research.publication",
+  "pk": 7,
+  "fields": {
+    "title": "Piecewise-Linear Motion Planning amidst Static, Moving, or Morphing Obstacles",
+    "abstract": "We propose a novel method for planning shortest length piecewise-linear motions through complex environments punctured with static, moving, or even morphing obstacles. Using a moment optimization approach, we formulate a hierarchy of semidefinite programs that yield increasingly refined lower bounds converging monotonically to the optimal path length.\r\n\r\nFor computational tractability, our global moment optimization approach motivates an iterative motion planner that outperforms competing sampling-based and nonlinear optimization baselines. Our method natively handles continuous time constraints without any need for time discretization, and has the potential to scale better with dimensions compared to popular sampling-based methods.",
+    "status": "sb",
+    "authors": "Bachir El Khadir, Jean Bernard Lasserre,  Vikas Sindhwani",
+    "link": "https://arxiv.org/pdf/2010.08167.pdf",
+    "journal": "",
+    "date": "2020-10-16T04:31:08Z",
+    "slug": "moment-sum-squares-approach-motion-planning",
+    "remark": ""
+  }
+},
+{
+  "model": "research.publication",
+  "pk": 8,
+  "fields": {
+    "title": "Semidefinite Representations in Semialgebraic Optimization and Dynamics-Oriented Learning",
+    "abstract": "Semidefinite programming (SDP) has known a recent surge in popularity\r\nin the last few decades in the mathematical optimization\r\ncommunity. This surge could be explained by two main reasons. On the\r\none hand, a mature theoretical and computational foundation backing\r\nSDP allows one to efficiently compute solutions and obtain formal\r\nguarantees on their quality. On the other hand, breakthrough\r\ndevelopments connecting SDP to real algebraic geometry have resulted\r\nin fundamentally new approaches to tackling semialgebraic optimization\r\nproblems. The same reasons also make SDP-based approaches well-suited\r\nfor applications in dynamical systems theory where systems of interest\r\ncan often be described by algebraic data, and where one seeks to\r\ncertify various notions of stability, safety, and robustness on the\r\nbehavior of these systems.\r\n\r\n\r\n\r\nThe contribution of the first part of this thesis is at the interface\r\nof SDP and semialgebraic optimization.  We start by presenting a\r\nframework for semidefinite programs whose objective function and\r\nconstraints vary polynomially with time. Our goal is then to find a\r\ntime-dependent solution that maximizes the aggregate of the objective\r\nfunction over time while satisfying the constraints at all times. We\r\nthen turn our attention to studying the relationship between two\r\nnotions that are known to make semialgebraic optimization problems\r\nmore tractable: the geometric notion of convexity and the algebraic\r\none of being a sum of squares. The interplay between the two notions\r\nis poorly understood. For instance, to this date, no example of a\r\nconvex homogeneous polynomial (of any degree $d$ and in any number of\r\nvariables $n$) that is not a sum of squares is known. We show that no\r\nsuch example exists in the case where $n=4$ and $d=4$, and if a\r\ncertain conjecture of Blekherman related to the so-called\r\n\\emph{Cayley-Bacharach} relationships is true, no such example exists\r\nin the case where $n=3$ and $d=6$ neither. These were the two minimal\r\ncases where one would have any hope of seeing convex homogeneous\r\npolynomials that are not sums of squares, due to known obstructions.\r\n%The main ingredient of the proof is a generalization of\r\n%the classical Cauchy-Schwarz inequality.\r\n\r\n\r\nIn the second part of this thesis, we study the power of SDP and\r\nsemialgebraic optimization when applied for the task of analyzing\r\ndynamical systems. First, we focus on the notion of stability --- one\r\nof the most fundamental properties that a dynamical system can\r\nverify. An ingenious idea, which was proposed by Lyapunov in his\r\nthesis at the end of the $19\\text{th}$ century, turns the question of\r\ntesting whether a dynamical system is locally asymptotically stable to\r\nthe question of existence of an associated \\emph{Lyapunov} function;\r\nbut it was an open question for some time whether this Lyapunov\r\nfunction could be assumed to be a polynomial in the special case where\r\nthe dynamical system is given by a polynomial vector field with\r\nrational coefficients. We give the first example of a globally (and in\r\nparticular, locally) asymptotically stable polynomial vector field\r\nwith integer coefficients that does not have an analytic Lyapunov\r\nfunction, let alone a polynomial one. We show by contrast that an\r\nasymptotically stable dynamical system given by a {homogeneous}\r\nvector field admits a {rational} (i.e., ratio of two polynomials)\r\nLyapunov function, and we give a hierarchy of semidefinite programs\r\nthat is guaranteed to find this Lyapunov function in finite time.\r\n\r\n\r\nInterestingly, the same tools that help analyze dynamical systems can\r\nalso be applied for learning these dynamical systems from data. We\r\ndevelop a mathematical formalism of the problem of learning a vector\r\nfield that fits sample measured trajectories and satisfies a concrete\r\ncollection of local or global properties (side information). We extend\r\nresults from constrained polynomial-approximation theory to show that,\r\nunder some conditions, polynomial vector fields can fit the\r\ntrajectories of any continuously-differentiable vector field to\r\narbitrary accuracy while respecting side information. Furthermore, we\r\nshow that SDP-based techniques are particularly suited for this\r\nlearning task.  We end by showing an application to imitation learning\r\nproblems in robotics.",
+    "status": "sb",
+    "authors": "Bachir El Khadir",
+    "link": "https://drive.google.com/file/d/11NyxxpVYW9JUds0OrgyFeVJAo6ZmUMpT/view?usp=sharing",
+    "journal": "",
+    "date": "2020-08-28T00:53:26Z",
+    "slug": "semidefinite-representations-semialgebraic-optimization-and-dynamics-oriented-learning",
+    "remark": "PhD Thesis"
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 1,
+  "fields": {
+    "picture": "time-varying-semidefinite-programs/Screenshot_2019-10-31_21.59.34.png",
+    "thumbnail": "time-varying-semidefinite-programs/Screenshot_2019-10-31_21.59.34_thumb.png",
+    "description": "Example of a TV-SDP",
+    "publication": 3
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 2,
+  "fields": {
+    "picture": "time-varying-semidefinite-programs/tv-maxflow.png",
+    "thumbnail": "",
+    "description": "Time-varying maxflow instance",
+    "publication": 3
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 3,
+  "fields": {
+    "picture": "time-varying-semidefinite-programs/tv-wireless.png",
+    "thumbnail": "time-varying-semidefinite-programs/tv-wireless_thumb.png",
+    "description": "Wireless coverage instance",
+    "publication": 3
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 4,
+  "fields": {
+    "picture": "on-algebraic-proofs-of-stability-for-homogeneous-v/rational_vector_field.png",
+    "thumbnail": "on-algebraic-proofs-of-stability-for-homogeneous-v/rational_vector_field_thumb.png",
+    "description": "One of the vector fields studied in the paper.",
+    "publication": 2
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 5,
+  "fields": {
+    "picture": "a-globally-asymptotically-stable-polynomial-vector/locally_stable_vector_field.png",
+    "thumbnail": "a-globally-asymptotically-stable-polynomial-vector/locally_stable_vector_field_thumb.png",
+    "description": "The main construction of the paper.",
+    "publication": 1
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 6,
+  "fields": {
+    "picture": "learning-dynamical-systems-side-information/airplane_example.png",
+    "thumbnail": "learning-dynamical-systems-side-information/airplane_example_thumb.png",
+    "description": "A plane has gone through sudden structural damage. Can we learn the new dynamics on the fly to land it safely?",
+    "publication": 4
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 7,
+  "fields": {
+    "picture": "learning-dynamical-systems-side-information/epidemiology_true_vf.png",
+    "thumbnail": "learning-dynamical-systems-side-information/epidemiology_true_vf_thumb.png",
+    "description": "An example of a vector field that we learn",
+    "publication": 4
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 8,
+  "fields": {
+    "picture": "teleoperator-imitation-continuous-time-safety/Voxelized_Kuka_Cropped.png",
+    "thumbnail": "teleoperator-imitation-continuous-time-safety/Voxelized_Kuka_Cropped_thumb.png",
+    "description": "",
+    "publication": 5
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 9,
+  "fields": {
+    "picture": "teleoperator-imitation-continuous-time-safety/Screenshot_2019-05-20_11.49.45.png",
+    "thumbnail": "teleoperator-imitation-continuous-time-safety/Screenshot_2019-05-20_11.49.45_thumb.png",
+    "description": "",
+    "publication": 5
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 10,
+  "fields": {
+    "picture": "teleoperator-imitation-continuous-time-safety/modulated_vectorfield_red_green.png",
+    "thumbnail": "teleoperator-imitation-continuous-time-safety/modulated_vectorfield_red_green_thumb.png",
+    "description": "Obstacle avoidance using vector fields.",
+    "publication": 5
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 11,
+  "fields": {
+    "picture": "teleoperator-imitation-continuous-time-safety/c4_high_res_2.png",
+    "thumbnail": "teleoperator-imitation-continuous-time-safety/c4_high_res_2_thumb.png",
+    "description": "In red, the set of bivariate convex forms of degree 4. In blue, the set of sum of squares of quadratic forms.",
+    "publication": 6
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 12,
+  "fields": {
+    "picture": "moment-sum-squares-approach-motion-planning/maze.png",
+    "thumbnail": "moment-sum-squares-approach-motion-planning/maze_thumb.png",
+    "description": "Maze",
+    "publication": 7
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 13,
+  "fields": {
+    "picture": "moment-sum-squares-approach-motion-planning/bicuspid.png",
+    "thumbnail": "moment-sum-squares-approach-motion-planning/bicuspid_thumb.png",
+    "description": "Bicupsid Obstacle",
+    "publication": 7
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 14,
+  "fields": {
+    "picture": "moment-sum-squares-approach-motion-planning/animation_2d.gif",
+    "thumbnail": "moment-sum-squares-approach-motion-planning/animation_2d_thumb.gif",
+    "description": "2D motion planning problem",
+    "publication": 7
+  }
+},
+{
+  "model": "research.publicationpicture",
+  "pk": 15,
+  "fields": {
+    "picture": "moment-sum-squares-approach-motion-planning/animation.gif",
+    "thumbnail": "moment-sum-squares-approach-motion-planning/animation_thumb.gif",
+    "description": "3D motion planning problem (click for animation)",
+    "publication": 7
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 1,
+  "fields": {
+    "name": "Slides",
+    "attachment": "",
+    "link": "https://docs.google.com/presentation/d/1WABp6QlNUhTUTK8M61IFlrQkAZoHZiAv8XAc5YcCGBs/edit?usp=sharing",
+    "publication": 2
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 2,
+  "fields": {
+    "name": "Slides",
+    "attachment": "",
+    "link": "https://docs.google.com/presentation/d/e/2PACX-1vRZtQ4x02xw6-i4rwlCTV3PUZV9_q_HBEMiPFwMu2oxRwaax33KcfOUDxpTESIYM95HgiRTl2k6KFh-/pub?start=false&loop=false&delayms=3000",
+    "publication": 3
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 3,
+  "fields": {
+    "name": "Poster",
+    "attachment": "on-algebraic-proofs-of-stability-for-homogeneous-v/main_v2.pdf",
+    "link": "",
+    "publication": 2
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 4,
+  "fields": {
+    "name": "ScienceDirect",
+    "attachment": "",
+    "link": "https://www.sciencedirect.com/science/article/pii/S0167691118301373",
+    "publication": 1
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 5,
+  "fields": {
+    "name": "Poster",
+    "attachment": "learning-dynamical-systems-side-information/Poster_Learning_with_side_information.pdf",
+    "link": "",
+    "publication": 4
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 6,
+  "fields": {
+    "name": "Video",
+    "attachment": "",
+    "link": "https://www.birs.ca/events/2019/5-day-workshops/19w5180/videos/watch/201905281611-ElKhadir.html",
+    "publication": 6
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 7,
+  "fields": {
+    "name": "RSS",
+    "attachment": "",
+    "link": "http://www.roboticsproceedings.org/rss15/p38.html",
+    "publication": 5
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 8,
+  "fields": {
+    "name": "Sage Notebook",
+    "attachment": "",
+    "link": "https://github.com/bachirelkhadir/Convex-Quaternary-Quartics-Are-Sum-of-Squares/blob/master/optimal_constant_generalized_cs_deg_8_a4.pdf",
+    "publication": 6
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 9,
+  "fields": {
+    "name": "IEEE",
+    "attachment": "",
+    "link": "https://ieeexplore.ieee.org/abstract/document/8706528/",
+    "publication": 2
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 10,
+  "fields": {
+    "name": "Slides",
+    "attachment": "",
+    "link": "https://drive.google.com/file/d/1FRT-2cgJLdKMsBZT92Fu3QtsULhFQN-S/view?usp=sharing",
+    "publication": 4
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 11,
+  "fields": {
+    "name": "Draft L4DC",
+    "attachment": "learning-dynamical-systems-side-information/Learning_with_side_information_L4DC_f1.pdf",
+    "link": "",
+    "publication": null
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 13,
+  "fields": {
+    "name": "Proofs L4DC",
+    "attachment": "learning-dynamical-systems-side-information/proofs_thm1_thm2.pdf",
+    "link": "",
+    "publication": null
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 14,
+  "fields": {
+    "name": "Slides",
+    "attachment": "",
+    "link": "https://drive.google.com/open?id=1oU8dg8-hlZ5UHsNflysyXA8QwohEwZbj",
+    "publication": 6
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 15,
+  "fields": {
+    "name": "SIAM",
+    "attachment": "",
+    "link": "https://epubs.siam.org/doi/10.1137/19M1287584",
+    "publication": 6
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 16,
+  "fields": {
+    "name": "3min Video",
+    "attachment": "",
+    "link": "https://youtu.be/AxLM-wQqYnc",
+    "publication": 7
+  }
+},
+{
+  "model": "research.publicationlink",
+  "pk": 18,
+  "fields": {
+    "name": "Slides",
+    "attachment": "",
+    "link": "https://bachirelkhadir.github.io/thesis-princeton-orfe/#/",
+    "publication": 8
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 1,
+  "fields": {
+    "conference": "INFORMS",
+    "place": "Houston, Texas",
+    "link": "",
+    "conference_link": "http://meetings2.informs.org/wordpress/houston2017",
+    "date": "2017-10-22T08:18:29Z",
+    "longitude": "29.7517670000000000",
+    "latitude": "-95.3605080000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 2,
+  "fields": {
+    "conference": "\"Optimal Power Flow Problem and Stability Assessment of Power Systems'' Workshop",
+    "place": "Versailles, Paris",
+    "link": "",
+    "conference_link": "https://opf-2018.sciencesconf.org/",
+    "date": "2018-01-14T08:20:06Z",
+    "longitude": "48.7949050000000000",
+    "latitude": "2.1381380000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 3,
+  "fields": {
+    "conference": "SIAM Annual Meeting",
+    "place": "Pittsburgh, PA",
+    "link": "",
+    "conference_link": "http://www.siam.org/meetings/an17/",
+    "date": "2017-03-20T08:20:41Z",
+    "longitude": "40.4460770000000000",
+    "latitude": "-79.9962160000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 4,
+  "fields": {
+    "conference": "Modeling and Optimization: Theory and Applications",
+    "place": "Lehigh University",
+    "link": "",
+    "conference_link": "http://coral.ie.lehigh.edu/~mopta2017/",
+    "date": "2017-08-16T08:25:52Z",
+    "longitude": "40.6059110000000000",
+    "latitude": "-75.3774760000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 5,
+  "fields": {
+    "conference": "SIAM Conference on Applications of Dynamical Systems",
+    "place": "Snowbird, Utah",
+    "link": "",
+    "conference_link": "https://www.siam.org/Conferences/CM/Conference/ds19",
+    "date": "2019-05-20T17:00:00Z",
+    "longitude": "40.5852780000000000",
+    "latitude": "-111.6582550000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 6,
+  "fields": {
+    "conference": "AFOSR, Dynamics and Control Program Review",
+    "place": "Arlington, VA",
+    "link": "",
+    "conference_link": "https://community.apan.org/wg/afosr/w/researchareas/22339/2018-dynamics-and-control-program-review/",
+    "date": "2018-09-26T15:34:15Z",
+    "longitude": "38.8935630000000000",
+    "latitude": "-77.0698360000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 7,
+  "fields": {
+    "conference": "Canadian Undergraduate Mathematics Conference",
+    "place": "Queens University, Ontario, Canda",
+    "link": "",
+    "conference_link": "https://cumc.math.ca/2019/",
+    "date": "2019-07-24T02:15:26Z",
+    "longitude": "44.2252560000000000",
+    "latitude": "-76.4950880000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 8,
+  "fields": {
+    "conference": "Geometry of Real Polynomials, Convexity and Optimization",
+    "place": "Banff, Alberta",
+    "link": "",
+    "conference_link": "https://www.birs.ca/events/2019/5-day-workshops/19w5180",
+    "date": "2019-05-27T02:18:24Z",
+    "longitude": "51.1718820000000000",
+    "latitude": "-115.5611570000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 9,
+  "fields": {
+    "conference": "Robotics: Science and Systems",
+    "place": "University of Freiburg, Freiburg im Breisgau, Germany",
+    "link": "",
+    "conference_link": "http://www.roboticsconference.org/",
+    "date": "2019-06-24T02:19:51Z",
+    "longitude": "47.9939800000000000",
+    "latitude": "7.8461410000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 10,
+  "fields": {
+    "conference": "Multidisciplinary Optimization Seminar",
+    "place": "Toulouse, France",
+    "link": "",
+    "conference_link": "https://perso.math.univ-toulouse.fr/spot/",
+    "date": "2019-07-01T02:23:25Z",
+    "longitude": "43.6031880000000000",
+    "latitude": "1.4545370000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 11,
+  "fields": {
+    "conference": "Workshop on Verifiable Control-Oriented Learning on the Fly",
+    "place": "Austin, TX",
+    "link": "",
+    "conference_link": "https://www.ae.utexas.edu/facultysites/topcu/wiki/index.php/Internal_MURI_workshop_--_August_2019",
+    "date": "2019-08-11T20:41:47Z",
+    "longitude": "30.2849180000000000",
+    "latitude": "-97.7340690000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 12,
+  "fields": {
+    "conference": "Modeling and Optimization: Theory and Applications",
+    "place": "Lehigh University",
+    "link": "",
+    "conference_link": "http://coral.ie.lehigh.edu/~mopta/",
+    "date": "2019-08-16T20:43:19Z",
+    "longitude": "40.6059110000000000",
+    "latitude": "-75.3774760000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 13,
+  "fields": {
+    "conference": "International Symposium on Mathematical Programming",
+    "place": "Bordeaux, France",
+    "link": "",
+    "conference_link": "https://ismp2018.sciencesconf.org/",
+    "date": "2018-07-04T18:10:39Z",
+    "longitude": "44.8267730000000000",
+    "latitude": "-0.6057090000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 14,
+  "fields": {
+    "conference": "Cornell ORIE Workshop",
+    "place": "Cornell University",
+    "link": "",
+    "conference_link": "",
+    "date": "2019-10-05T18:30:20Z",
+    "longitude": "42.4533230000000000",
+    "latitude": "-76.4731160000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 15,
+  "fields": {
+    "conference": "Workshop on Computational Issues in Nonlinear Control",
+    "place": "Monterey, CA",
+    "link": "",
+    "conference_link": "",
+    "date": "2019-10-07T18:31:54Z",
+    "longitude": "36.6001300000000000",
+    "latitude": "-121.8918780000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 16,
+  "fields": {
+    "conference": "INFORMS Annual Meeting",
+    "place": "Seattle, WA",
+    "link": "",
+    "conference_link": "http://meetings2.informs.org/wordpress/seattle2019/",
+    "date": "2019-10-20T18:34:16Z",
+    "longitude": "47.6127060000000000",
+    "latitude": "-122.3292230000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 17,
+  "fields": {
+    "conference": "Nokia Bell Labs Seminars",
+    "place": "Murray Hill, NJ",
+    "link": "",
+    "conference_link": "",
+    "date": "2019-11-21T17:35:41Z",
+    "longitude": "40.6851240000000000",
+    "latitude": "-74.4022960000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 18,
+  "fields": {
+    "conference": "INFORMS Optimization Society 2020 Conference",
+    "place": "(Canceled due to Coronavirus)  Greenville, SC",
+    "link": "",
+    "conference_link": "https://cecas.clemson.edu/informs-conference/",
+    "date": "2020-03-15T18:17:29Z",
+    "longitude": "34.8491940000000000",
+    "latitude": "-82.3994900000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 19,
+  "fields": {
+    "conference": "Real Algebraic Geometry with a View Toward Hyperbolic Programming and Free Probability",
+    "place": "Mathematical Research Institute of Oberwolfach, Germany",
+    "link": "",
+    "conference_link": "https://www.mfo.de/occasion/2010/www_view",
+    "date": "2020-03-01T18:22:35Z",
+    "longitude": "48.3464200000000000",
+    "latitude": "8.2359860000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 20,
+  "fields": {
+    "conference": "Laboratory for Information & Decision Systems",
+    "place": "Massachusetts Institute of Technology [On Zoom]",
+    "link": "",
+    "conference_link": "https://lids.mit.edu/news-and-events/events/sum-squares-representation-convex-forms-and-generalized-cauchy-schwarz",
+    "date": "2020-03-20T11:56:15Z",
+    "longitude": "42.3600000000000000",
+    "latitude": "-71.0900000000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 21,
+  "fields": {
+    "conference": "Learning for DynamIcs & Control (L4DC)",
+    "place": "University of California, Berkeley, CA [On Zoom]",
+    "link": "",
+    "conference_link": "https://sites.google.com/berkeley.edu/l4dc/home",
+    "date": "2020-06-10T12:04:00Z",
+    "longitude": "37.8700000000000000",
+    "latitude": "-122.2500000000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 22,
+  "fields": {
+    "conference": "Duke Kunshan University",
+    "place": "Suzhou, China",
+    "link": "",
+    "conference_link": "",
+    "date": "2020-01-06T16:44:43Z",
+    "longitude": "31.0000000000000000",
+    "latitude": "120.0000000000000000"
+  }
+},
+{
+  "model": "research.talk",
+  "pk": 23,
+  "fields": {
+    "conference": "Computer Vision and Machine Learning Research Laboratory",
+    "place": "\u00c9cole Normale Superieure [On Zoom]",
+    "link": "https://www.di.ens.fr/willow/seminars.php",
+    "conference_link": "",
+    "date": "2020-11-26T09:00:00Z",
+    "longitude": "48.0000000000000000",
+    "latitude": "2.0000000000000000"
+  }
+},
+{
+  "model": "research.resume",
+  "pk": 3,
+  "fields": {
+    "pdf_file": "resume.pdf",
+    "upload_date": "2018-08-12T03:38:30Z"
+  }
+},
+{
+  "model": "research.resume",
+  "pk": 4,
+  "fields": {
+    "pdf_file": "Resume.pdf",
+    "upload_date": "2019-10-04T16:13:40Z"
+  }
+},
+{
+  "model": "research.resume",
+  "pk": 5,
+  "fields": {
+    "pdf_file": "Resume.pdf",
+    "upload_date": "2019-10-09T22:21:32Z"
+  }
+},
+{
+  "model": "research.resume",
+  "pk": 6,
+  "fields": {
+    "pdf_file": "Resume.pdf",
+    "upload_date": "2019-10-12T23:26:16Z"
+  }
+},
+{
+  "model": "research.resume",
+  "pk": 7,
+  "fields": {
+    "pdf_file": "Resume.pdf",
+    "upload_date": "2019-10-15T20:13:34Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 1,
+  "fields": {
+    "body": "Excited to have won honorable mention in the 2019 INFORMS Optimization Society Student Paper Prize Competition, for my paper <a href=\"http://www.bachirelkhadir.com/research/publications/#publication-3\">Time-Varying Semidefinite Programs</a>.",
+    "date": "2019-10-04T18:20:58Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 2,
+  "fields": {
+    "body": "I was a Keynote speaker at the <a href=\"https://cumc.math.ca/2019/\">Canadian Undergraduate Mathematics Conference</a>.",
+    "date": "2019-10-04T18:21:11Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 3,
+  "fields": {
+    "body": "Recent talk on Generalized Cauchy-Schwarz Inequalities and his proof that all convex quaternary quartics are sums of squares. <a href=\"https://www.birs.ca/events/2019/5-day-workshops/19w5180/videos/watch/201905281611-ElKhadir.html\">Video</a>",
+    "date": "2019-10-04T18:21:21Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 4,
+  "fields": {
+    "body": "I received the <a href=\"https://orfe.princeton.edu/news/two-orfe-graduate-students-receive-seas-award-excellence\">Princeton SEAS Award for Excellence</a>.",
+    "date": "2019-11-13T21:20:25Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 5,
+  "fields": {
+    "body": "<a href=\"https://scholar.princeton.edu/cemildibek\">Cemil</a> and I are organizing a <a href=\"https://www.abstractsonline.com/pp8/#!/6818/session/1914\">session</a> at INFORMS. Drop by if you are attending the conference.",
+    "date": "2019-10-21T03:03:34Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 7,
+  "fields": {
+    "body": "I will be presenting in the <a href=\"https://www.abstractsonline.com/pp8/#!/6818/session/2796\">IOS Award Presentations</a> session at INFORMS in Seattle.",
+    "date": "2019-10-20T17:23:14Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 8,
+  "fields": {
+    "body": "<a href=\"https://drive.google.com/open?id=1oU8dg8-hlZ5UHsNflysyXA8QwohEwZbj\">Slides</a> for recent talk at Oberwolfach.",
+    "date": "2020-03-04T16:33:41Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 9,
+  "fields": {
+    "body": "Our <a href=\"http://www.bachirelkhadir.com/research/publications/#publication-4\">recent paper</a> on \"Learning with Side Information\" has been accepted for an oral presentation at the <a href=\"https://sites.google.com/berkeley.edu/l4dc/home\"><acronym title=\"Learning for Dynamics and Control \">L4DC</acronym></a> conference.",
+    "date": "2020-03-05T06:57:07Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 10,
+  "fields": {
+    "body": "The recording of my talk at MIT (Friday March 20<sup>th</sup>, 2020)  is now available. <a href=\"https://mit.zoom.us/rec/share/weFZcr_ttU5LcJXfwVrYXe16OLnMaaa80HJI__BcyUdX9l-ZubDoiHRiPF3dHUkZ?startTime=1584722303000\">Video</a>, <a href=\"http://www.mit.edu/~parrilo/vsopt/slides/Conv_SOS_Oberwolfach_Bachir_El_Khadir_March_20.pdf\">Slides</a>.",
+    "date": "2020-03-19T01:21:03Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 11,
+  "fields": {
+    "body": "I will be a <a href=\"https://www.research.ibm.com/goldstine/\">Goldstine Fellow</a> at IBM Thomas J. Watson Research Center starting in September.",
+    "date": "2020-06-21T04:13:46Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 12,
+  "fields": {
+    "body": "New video on Learning Dynamical Systems with Side Information.\r\n\r\n<iframe width=\"400\" height=\"225\" src=\"https://www.youtube.com/embed/lu9fJWIRDMc\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "date": "2020-09-17T22:36:33Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 13,
+  "fields": {
+    "body": "New <a href=\"http://www.bachirelkhadir.com/research/publications/#publication-7\">paper</a> on motion planning using SDPs.\r\n\r\n<iframe width=\"400\" height=\"225\" src=\"https://www.youtube.com/embed/AxLM-wQqYnc?controls=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+    "date": "2020-10-16T05:16:20Z"
+  }
+},
+{
+  "model": "news.news",
+  "pk": 14,
+  "fields": {
+    "body": "<a href=\"https://bachirelkhadir.github.io/thesis-princeton-orfe/#/\">Slides</a> I used for my Ph.D. dissertation defense.\r\n\r\n<a href=\"https://bachirelkhadir.github.io/thesis-princeton-orfe/#/\"><img src=\"https://storage.googleapis.com/bachirelkhadir.com/thesis_slide_thumbail.png\"/></a>",
+    "date": "2020-10-27T21:08:20Z"
+  }
+},
+{
+  "model": "dynamic_url_redirect.urlentry",
+  "pk": 1,
+  "fields": {
+    "alias_url": "research/code/generalzied_c_s_optimal_constant_deg_8",
+    "outside_url": "https://github.com/bachirelkhadir/Convex-Quaternary-Quartics-Are-Sum-of-Squares/blob/master/Exact_value_of_A4_star.ipynb"
+  }
+},
+{
+  "model": "dynamic_url_redirect.urlentry",
+  "pk": 2,
+  "fields": {
+    "alias_url": "research/code/Exact_value_of_A4_star.ipynb",
+    "outside_url": "https://github.com/bachirelkhadir/Convex-Quaternary-Quartics-Are-Sum-of-Squares/blob/master/optimal_constant_generalized_cs_deg_8_a4.pdf"
+  }
+}
+]
