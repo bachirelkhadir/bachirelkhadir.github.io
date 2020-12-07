@@ -1,8 +1,18 @@
-# About Me
+---
+layout: page
+title: About
+permalink: /about/
+---
 
-I am a Goldstine Fellow at IBM Research in New York. In 2020, I completed my PhD at Princeton University under the supervision of Amir Ali Ahmadi. Before joining Princeton, I graduated from Ecole Polytechnique.
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-I am broadly interested in Polynomial Optimization, Dynamical Systems & Control, and Machine Learning. You can learn more about my work by having a look at my papers.
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
-You can contact me at: bachir[at]ibm[dot]com
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
+
+[jekyll-organization]: https://github.com/jekyll
