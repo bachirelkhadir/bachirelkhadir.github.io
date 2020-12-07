@@ -1,0 +1,14 @@
+
+html, body {
+    height: 100%;
+}
+/* index */
+#myphoto{
+    border: 2px solid #35447a; /* #0071BC; */
+    border-radius: 60%;
+    background-color: lightgray;
+    float: left;
+    padding: 0px;
+    margin: 20px 30px 20px 10px;
+    max-width: 200px;
+}
