@@ -16,16 +16,20 @@ layout: default
 <div id="recent-news">
     <h2 id="news-title">Recent News and Highlights</h2>
     <div id="news">
+
+    {% for currentyear in (2019..2020) reversed %}
     <section class="year">
-    <h3>2020</h3>
+    <h3>{{ currentyear }}</h3>
     <ul>
     {% for news in site.categories.news %}
-    {% capture year %}{{ news.date | date: "%Y"}}{% endcapture %}
-    {% if year == "2020" %}
+    {% capture newsyear %}{{ news.date | date: "%Y"  }}{% endcapture %}
+    {% assign newsyear = newsyear | plus: 0 %}
+    {% if newsyear ==  currentyear %}
     <li>{{news.content}}</li>
     {% endif %}
     {% endfor %}
     </ul>
     </section>
+    {% endfor %}
     </div> 
 </div>
