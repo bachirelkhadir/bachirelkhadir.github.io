@@ -1,5 +1,5 @@
 ---
-conference : ``Optimal Power Flow Problem and Stability Assessment of Power Systems'' Workshop
+conference : "``Optimal Power Flow Problem and Stability Assessment of Power Systems'' Workshop"
 place : "Versailles, Paris"
 link : ""
 conference_link : "https://opf-2018.sciencesconf.org/"
