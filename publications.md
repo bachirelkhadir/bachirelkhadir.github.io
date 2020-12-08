@@ -25,6 +25,20 @@ permalink: publications/
         <nobr><a id="show-abstract-{{forloop.index}}"><span id="abstract-icon-{{forloop.index}}" class="ui-icon ui-icon-plusthick"></span>Abstract</a></nobr>.
     </p>
     <p hidden class="abstract-info minimize" id="abstract-info-{{forloop.index}}">{{ publication.content | strip_html }}</p>
+
+          {% for pic in publication.images %}
+          
+            <a href="/assets/imgs/publications/{{ pic.url }}">
+              <figure>
+                {% if pic.thumbnail %}
+                <img alt="{{ pic.description }} (thumbnail)" title="{{ pic.description }} (thumbnail)" src="/assets/imgs/publications/{{ pic.thumbnail }}" loading="lazy">
+                {% else %}
+                <img alt="{{ pic.description }}" title="{{ pic.description }}" src="/assets/imgs/publications/{{ pic.url }}" loading="lazy">
+                {% endif %}
+                    <figcaption>{{ pic.description }}</figcaption>
+                </figure>
+            </a>
+    {% endfor %}
 </div>
 
 

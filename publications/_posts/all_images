@@ -1,0 +1,25 @@
+
+
+
+
+    - url: "on-algebraic-proofs-of-stability-for-homogeneous-v/rational_vector_field.png"
+      thumbnail: "on-algebraic-proofs-of-stability-for-homogeneous-v/rational_vector_field_thumb.png"
+      description: "One of the vector fields studied in the paper."
+
+
+
+    - url: "a-globally-asymptotically-stable-polynomial-vector/locally_stable_vector_field.png"
+      thumbnail: "a-globally-asymptotically-stable-polynomial-vector/locally_stable_vector_field_thumb.png"
+      description: "The main construction of the paper."
+
+
+
+    - url: "learning-dynamical-systems-side-information/airplane_example.png"
+      thumbnail: "learning-dynamical-systems-side-information/airplane_example_thumb.png"
+      description: "A plane has gone through sudden structural damage. Can we learn the new dynamics on the fly to land it safely?"
+
+
+
+    - url: "learning-dynamical-systems-side-information/epidemiology_true_vf.png"
+      thumbnail: "learning-dynamical-systems-side-information/epidemiology_true_vf_thumb.png"
+      description: "An example of a vector field that we learn"
