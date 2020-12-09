@@ -13,7 +13,6 @@ images:
       description: "Example of a TV-SDP"
     
     - url: "time-varying-semidefinite-programs/tv-maxflow.png"
-      thumbnail: ""
       description: "Time-varying maxflow instance"
     
     - url: "time-varying-semidefinite-programs/tv-wireless.png"
