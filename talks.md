@@ -12,7 +12,7 @@ permalink: talks/
 
 <div id="list-talks">
 {% for talk in site.categories.talks %}
-<p class="talk-item" id="talk-{{forloop.index}}"><a href="{{talk.conference_link}}">{{ talk.conference }}</a> - <em>{{ talk.place }}</em>, {{ talk.date|date:"%D, %d %M %Y" }}.
+<p class="talk-item" id="talk-{{forloop.index}}"><a href="{{talk.conference_link}}">{{ talk.conference }}</a> - <em>{{ talk.place }}</em>, {{ talk.date| date_to_long_string  }}.
 </p>
 {% endfor %}
 </div>

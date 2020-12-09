@@ -190,10 +190,21 @@
     margin: 2%;
 }
 
+
+#list-talks p {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#list-talks p:nth-child(odd) {
+    background:#f5f5f5;
+}
+
 #map-talks {
 height: 200px;
-width: 100%;
 max-width: 100%;
+box-shadow: 10px -10px 5px #CCC;
+margin: 20px;
 }
 
 /* Footer */
