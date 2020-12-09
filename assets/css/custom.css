@@ -195,3 +195,13 @@ height: 200px;
 width: 100%;
 max-width: 100%;
 }
+
+/* Footer */
+
+footer {
+    font-size: .85rem;
+    font-style: normal;
+    background-color: #fafafa;
+    color: #7a7a7a;
+    border-color: transparent;
+}
