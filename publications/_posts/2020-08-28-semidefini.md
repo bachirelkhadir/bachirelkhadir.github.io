@@ -4,10 +4,9 @@ title: Semidefinite Representations in Semialgebraic Optimization and Dynamics-O
 status: sb
 authors: Bachir El Khadir
 links: 
-  - PDF: https://drive.google.com/file/d/11NyxxpVYW9JUds0OrgyFeVJAo6ZmUMpT/view?usp=sharing
+  - PDF: "/assets/pdfs/bachir_el_khadir_thesis_princeton.pdf"
   - Slides: https://bachirelkhadir.github.io/thesis-princeton-orfe/#/
-journal: 
-remark: PhD Thesis
+journal: PhD Thesis
 ---
 
 Semidefinite programming (SDP) has known a recent surge in popularity
