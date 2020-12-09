@@ -3,9 +3,9 @@ date:   2020-10-16 04:31:08+00:00
 title: Piecewise-Linear Motion Planning amidst Static, Moving, or Morphing Obstacles
 status: sb
 authors: "Bachir El Khadir, Jean Bernard Lasserre,  Vikas Sindhwani"
-link: https://arxiv.org/pdf/2010.08167.pdf
-journal: 
-remark: 
+links: 
+  - Arxiv: https://arxiv.org/pdf/2010.08167.pdf
+  - 3min Video: https://youtu.be/AxLM-wQqYnc
 images:
     - url: "moment-sum-squares-approach-motion-planning/maze.png"
       thumbnail: "moment-sum-squares-approach-motion-planning/maze_thumb.png"

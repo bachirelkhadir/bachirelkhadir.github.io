@@ -3,7 +3,8 @@ date:   2018-08-12 16:28:55+00:00
 title: Time-Varying Semidefinite Programs
 status: sb
 authors: Amir Ali Ahmadi, Bachir El Khadir
-link: https://arxiv.org/abs/1808.03994
+links:
+  - Arxiv: https://arxiv.org/abs/1808.03994
 journal: Mathematics of Operations Research
 remark: Accepted with minor revision to Mathematics of Operations Research
 images:

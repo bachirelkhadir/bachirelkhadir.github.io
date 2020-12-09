@@ -3,7 +3,9 @@ date:   2020-08-28 00:53:26+00:00
 title: Semidefinite Representations in Semialgebraic Optimization and Dynamics-Oriented Learning
 status: sb
 authors: Bachir El Khadir
-link: https://drive.google.com/file/d/11NyxxpVYW9JUds0OrgyFeVJAo6ZmUMpT/view?usp=sharing
+links: 
+  - PDF: https://drive.google.com/file/d/11NyxxpVYW9JUds0OrgyFeVJAo6ZmUMpT/view?usp=sharing
+  - Slides: https://bachirelkhadir.github.io/thesis-princeton-orfe/#/
 journal: 
 remark: PhD Thesis
 ---

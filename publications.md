@@ -10,9 +10,6 @@ permalink: publications/
   {%- endif -%}
   
   
-  
-<h2>Publications</h2>
-
     {% for publication in site.categories.publications %}
 
 
@@ -21,7 +18,14 @@ permalink: publications/
     <p><span class="title">{{ publication.title }}</span>.
         <span class="authors">{{ publication.authors }}</span>,
         <span class="date">{{ publication.date|date:"%Y" }}.</span>
+        {% if publication.journal %}
         <span class="journal">{{ publication.journal }}.</span>
+        {% endif %}
+        {% for links in publication.links %}
+        {% for link in links %}
+        <a href="{{link[1]}}">[{{link[0]}}]</a>
+        {% endfor %}
+        {% endfor %}
         <nobr><a id="show-abstract-{{forloop.index}}"><span id="abstract-icon-{{forloop.index}}" class="ui-icon ui-icon-plusthick"></span>Abstract</a></nobr>.
     </p>
     <p hidden class="abstract-info minimize" id="abstract-info-{{forloop.index}}">{{ publication.content | strip_html }}</p>

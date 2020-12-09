@@ -3,7 +3,9 @@ date:   2018-03-05 01:13:47+00:00
 title: On Algebraic Proofs of Stability for Homogeneous Vector Fields
 status: pb
 authors: Amir Ali Ahmadi, Bachir El Khadir
-link: https://arxiv.org/abs/1803.01877
+links: 
+  - Arxiv: https://arxiv.org/abs/1803.01877
+  - IEEE: https://ieeexplore.ieee.org/abstract/document/8706528/
 journal: Transactions on Automatic Control
 remark: 
 images:

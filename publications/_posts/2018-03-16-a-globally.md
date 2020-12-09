@@ -3,7 +3,9 @@ date:   2018-03-16 01:12:36+00:00
 title: A Globally Asymptotically Stable Polynomial Vector Field with Rational Coefficients and no Local Polynomial Lyapunov Function
 status: pb
 authors: Amir Ali Ahmadi, Bachir El Khadir
-link: https://arxiv.org/abs/1803.06087
+links: 
+  - Arxiv: https://arxiv.org/abs/1803.06087
+  - ScienceDirect: https://www.sciencedirect.com/science/article/pii/S0167691118301373
 journal: Systems & Control Letters
 remark: 
 images:

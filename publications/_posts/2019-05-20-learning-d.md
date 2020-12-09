@@ -3,9 +3,10 @@ date:   2019-05-20 17:33:20+00:00
 title: Learning Dynamical Systems with Side Information
 status: pb
 authors: Amir Ali Ahmadi, Bachir El Khadir
-link: https://arxiv.org/abs/2008.10135
+links: 
+  - Arxiv: https://arxiv.org/abs/2008.10135
+  - Video:  https://www.youtube.com/watch?v=lu9fJWIRDMc
 journal: Proceedings of Machine Learning Research vol   120:1–10, 2020
-remark: 
 images:
     - url: "learning-dynamical-systems-side-information/airplane_example.png"
       thumbnail: "learning-dynamical-systems-side-information/airplane_example_thumb.png"

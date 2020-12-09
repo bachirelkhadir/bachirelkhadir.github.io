@@ -3,7 +3,9 @@ date:   2019-05-20 17:47:51+00:00
 title: Teleoperator Imitation with Continuous-time Safety
 status: pb
 authors: Bachir El Khadir, Jake Varley, Vikas Sindhwani
-link: https://arxiv.org/abs/1905.09499
+links: 
+  - Arxiv: https://arxiv.org/abs/1905.09499
+  - RSS: http://www.roboticsproceedings.org/rss15/p38.html
 journal: RSS 2019
 remark: 
 images:
