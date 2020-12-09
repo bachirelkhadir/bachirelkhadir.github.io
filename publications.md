@@ -26,6 +26,7 @@ permalink: publications/
     </p>
     <p hidden class="abstract-info minimize" id="abstract-info-{{forloop.index}}">{{ publication.content | strip_html }}</p>
 
+<div class="img-list">
           {% for pic in publication.images %}
           
             <a href="/assets/imgs/publications/{{ pic.url }}">
@@ -39,6 +40,7 @@ permalink: publications/
                 </figure>
             </a>
     {% endfor %}
+    </div>
 </div>
 
 
