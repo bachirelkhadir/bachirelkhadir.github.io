@@ -44,12 +44,11 @@
     margin-bottom: 10px;
 }
 #news ul {
-    margin: -25px 0 0 150px;
+    margin: -50px 0 0 150px;
     padding: 0;
-    padding-left: 10px;
     list-style-type: none;
     list-style-position: inside;
-    border-left: 2px solid #888;
+    /* border-left: 2px solid #888; */
     min-height: 30px;
 }
 
@@ -61,14 +60,24 @@
 }
 
 #news li span{
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
 
 #news li{
-    margin-bottom: 5px;
-    margin-left: 10px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+
 }
 
+#news li:nth-child(even) {
+    border-left: 3px solid #888;
+}
+
+#news li:nth-child(odd) {
+
+    border-left: 3px solid black;
+    background:#f5f5f5;
+}
 
 #news li p{
     display: inline;
@@ -97,7 +106,6 @@
         padding-left: 5px;
         list-style-type: none;
         list-style-position: inside;
-        border-left: 2px solid #888;
         min-height: 30px;
     }
 }
