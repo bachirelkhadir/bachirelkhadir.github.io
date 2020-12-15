@@ -47,3 +47,7 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
+
+# Google Analytics
+google_analytics: UA—149708400-1
