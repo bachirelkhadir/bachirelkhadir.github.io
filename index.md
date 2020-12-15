@@ -14,7 +14,6 @@ layout: default
 
 
 <div id="recent-news">
-    <h2 id="news-title">Recent News and Highlights</h2>
     <div id="news">
 
     {% for currentyear in (2019..2020) reversed %}
