@@ -6,8 +6,13 @@ http://bachirelkhadir.github.io
 
 Start a new Jekyll website locally
 
-#+begin_src sh
+#+begin_src bash
 jekyll new . --force
 #+end_src
 
-Pass the --livereload option to serve to automatically refresh the page with each change you make to the source files: bundle exec jekyll serve --livereload
+Pass the --livereload option to serve to automatically refresh the page with each change you make to the source files:
+#+begin_src bash
+bundle exec jekyll serve --livereload
+#+end_src
+
+* Add news
