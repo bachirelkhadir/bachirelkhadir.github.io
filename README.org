@@ -2,6 +2,14 @@
 
 http://bachirelkhadir.github.io
 
+* Install
+    https://jekyllrb.com/docs/installation/ubuntu/
+
+    ```
+    bundle install
+    ```
+
+    and run make serve
 * Setup
 
 Start a new Jekyll website locally
