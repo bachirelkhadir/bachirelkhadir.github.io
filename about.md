@@ -3,4 +3,4 @@ In 2020, I completed my PhD  at Princeton University  under the supervision of  
 
 <p>I am broadly interested in Polynomial Optimization, Dynamical Systems & Control, and Machine Learning. You can learn more about my work by having a look at my <a href="publications/">papers</a>.</p>
 
-<p>You can contact me at: bachir[at]ibm[dot]com</p>
+<p>You can contact me at: bachir009 [at] gmail [dot] com </p>
