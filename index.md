@@ -16,7 +16,7 @@ layout: default
 <div id="recent-news">
     <div id="news">
 
-    {% for currentyear in (2019..2021) reversed %}
+    {% for currentyear in (2019..2022) reversed %}
     <section class="year">
     <h3>{{ currentyear }}</h3>
     <ul>
