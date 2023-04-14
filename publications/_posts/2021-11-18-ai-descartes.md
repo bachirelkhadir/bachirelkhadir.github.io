@@ -1,10 +1,10 @@
 ---
 date:  2021-10-08 04:31:08+00:00
-title: "AI Descartes: Combining Data and Theory for Derivable Scientific Discovery"
+title: "Combining data and theory for derivable scientific discovery with AI-Descartes"
 status: pb
 authors: "Cristina Cornelio, Sanjeeb Dash, Vernon Austel, Tyler R. Josephson, Joao Goncalves, Kenneth Clarkson, Nimrod Megiddo, Bachir El Khadir, Lior Horesh"
 links: 
-  - Arxiv: https://arxiv.org/pdf/2109.01634.pdf
+  - nature: https://www.nature.com/articles/s41467-023-37236-y%E2%80%A6
 journal: 
 remark: 
 images:
@@ -14,16 +14,4 @@ images:
 
 ---
 
-Scientists have long aimed to discover meaningful formulae which accurately describe experimental data. One
-common approach is to manually create mathematical models of natural phenomena using domain knowledge,
-then fit these models to data. In contrast, machine-learning algorithms automate the construction of accurate
-data-driven models while consuming large amounts of data. Ensuring that such models are consistent with existing
-knowledge is an open problem. We develop a method for combining logical reasoning with symbolic regression,
-enabling principled derivations of models of natural phenomena. We demonstrate these concepts for Kepler’s third
-law of planetary motion, Einstein’s relativistic time-dilation law, and Langmuir’s theory of adsorption, automatically
-connecting experimental data with background theory in each case. We show that laws can be discovered from few
-data points when using formal logical reasoning to distinguish the correct formula from a set of plausible formulas
-that have similar error on the data. The combination of reasoning with machine learning provides generalizable
-insights into key aspects of natural phenomena. We envision that this combination will enable derivable discovery
-of fundamental laws of science. We believe that this is a crucial first step for connecting the missing links in
-automating the scientific method.
+Scientists aim to discover meaningful formulae that accurately describe experimental data. Mathematical models of natural phenomena can be manually created from domain knowledge and fitted to data, or, in contrast, created automatically from large datasets with machine-learning algorithms. The problem of incorporating prior knowledge expressed as constraints on the functional form of a learned model has been studied before, while finding models that are consistent with prior knowledge expressed via general logical axioms is an open problem. We develop a method to enable principled derivations of models of natural phenomena from axiomatic knowledge and experimental data by combining logical reasoning with symbolic regression. We demonstrate these concepts for Kepler’s third law of planetary motion, Einstein’s relativistic time-dilation law, and Langmuir’s theory of adsorption. We show we can discover governing laws from few data points when logical reasoning is used to distinguish between candidate formulae having similar error on the data.
