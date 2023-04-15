@@ -4,7 +4,7 @@ title: "Combining data and theory for derivable scientific discovery with AI-Des
 status: pb
 authors: "Cristina Cornelio, Sanjeeb Dash, Vernon Austel, Tyler R. Josephson, Joao Goncalves, Kenneth Clarkson, Nimrod Megiddo, Bachir El Khadir, Lior Horesh"
 links: 
-  - nature: https://www.nature.com/articles/s41467-023-37236-y%E2%80%A6
+  - Nature: https://www.nature.com/articles/s41467-023-37236-y%E2%80%A6
 journal: 
 remark: 
 images:
