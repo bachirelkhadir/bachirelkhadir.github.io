@@ -1,5 +1,5 @@
 ---
-date:  2021-10-08 04:31:08+00:00
+date:  2023-04-14 04:31:08+00:00
 title: "Combining data and theory for derivable scientific discovery with AI-Descartes"
 status: pb
 authors: "Cristina Cornelio, Sanjeeb Dash, Vernon Austel, Tyler R. Josephson, Joao Goncalves, Kenneth Clarkson, Nimrod Megiddo, Bachir El Khadir, Lior Horesh"
