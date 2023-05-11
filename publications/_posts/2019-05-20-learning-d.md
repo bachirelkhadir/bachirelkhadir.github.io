@@ -5,8 +5,9 @@ status: pb
 authors: Amir Ali Ahmadi, Bachir El Khadir
 links: 
   - Arxiv: https://arxiv.org/abs/2008.10135
+  - SIAM: https://epubs.siam.org/doi/10.1137/20M1388644
   - Video:  https://www.youtube.com/watch?v=lu9fJWIRDMc
-journal: Proceedings of Machine Learning Research vol   120:1–10, 2020
+journal: SIAM Review, 2023.
 images:
     - url: "learning-dynamical-systems-side-information/airplane_example.png"
       thumbnail: "learning-dynamical-systems-side-information/airplane_example_thumb.png"
